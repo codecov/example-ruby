@@ -5,7 +5,7 @@ Ruby Example
 
 > Example of how to integrate with [Codecov.io][1] for your **awesome** Ruby project!
 
-## See this repos [Coveage Reports][4]
+## See this repos [Coverage Reports][4]
 
 
 ## Usage
