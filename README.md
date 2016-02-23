@@ -33,14 +33,10 @@ CODECOV_TOKEN=<your repo token>
 ```
 Find you repo token on your repo page at [codecov.io][1]
 
-#### ... perhaps send it only when
-
-```ruby
-if ENV['CI'] == 'true'
-  require 'codecov'
-  SimpleCov.formatter = SimpleCov::Formatter::Codecov
-end
-```
+### Merging coverage results
+**Codecov handles merging reports automatically** from all uploads and languages.
+However, depending on your setup, it may require merging coverage results before sending reports to Codecov. 
+Here is a fine example on how to merge reports: https://gist.github.com/stevepeak/60047215e207210cc9b5
 
 
 
