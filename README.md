@@ -1,7 +1,5 @@
-Ruby Example
-=======
-| [https://codecov.io/][1] | [@codecov][2] | [hello@codecov.io][3] |
-| ------------------------ | ------------- | --------------------- |
+[Codecov][1] Ruby Example
+=========================
 
 > Example of how to integrate with [Codecov.io][1] for your **awesome** Ruby project!
 
