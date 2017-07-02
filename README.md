@@ -29,7 +29,7 @@ SimpleCov.formatter = SimpleCov::Formatter::Codecov
 ```sh
 CODECOV_TOKEN=<your repo token>
 ```
-Find you repo token on your repo page at [codecov.io][1]
+Find your repo token on your repo page at [codecov.io][1]
 
 ### Merging coverage results
 **Codecov handles merging reports automatically** from all uploads and languages.
