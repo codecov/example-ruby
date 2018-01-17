@@ -29,10 +29,9 @@ SimpleCov.formatter = SimpleCov::Formatter::Codecov
 ```
 ## Caveats
 ### Private Repos
-Add to your `.travis.yml` file.
-```yml
-after_success:
-  - bash <(curl -s https://codecov.io/bash) -t uuid-repo-token
+In your CI Environment Variables (not needed for https://travis-ci.org/)
+```
+CODECOV_TOKEN="your repo token"
 ```
 ### Merging coverage results
 **Codecov handles merging reports automatically** from all uploads and languages.
