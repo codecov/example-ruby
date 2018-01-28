@@ -6,12 +6,12 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    codecov (0.0.1)
+    codecov (0.1.10)
       json
       simplecov
       url
     docile (1.1.5)
-    json (1.8.1)
+    json (2.1.0)
     metaclass (0.0.4)
     mocha (1.1.0)
       metaclass (~> 0.0.1)
@@ -29,7 +29,10 @@ PLATFORMS
 
 DEPENDENCIES
   awesome!
-  codecov
+  codecov (>= 0.1.10)
   mocha
   rake
   simplecov
+
+BUNDLED WITH
+   1.12.5
