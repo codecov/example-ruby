@@ -36,7 +36,7 @@ Find your repo token on your repo page at [codecov.io][1]
 However, depending on your setup, it may require merging coverage results before sending reports to Codecov. 
 Here is a fine example on how to merge reports: https://gist.github.com/stevepeak/60047215e207210cc9b5
 
-
+We are happy to help if you have any questions. Please contact email our Support at [support@codecov.io](mailto:support@codecov.io)
 
 [1]: https://codecov.io/
 [2]: https://twitter.com/codecov
