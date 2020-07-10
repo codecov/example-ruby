@@ -6,7 +6,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    codecov (0.1.19)
+    codecov (0.2.1)
       colorize
       json
       simplecov
@@ -25,7 +25,7 @@ PLATFORMS
 
 DEPENDENCIES
   awesome!
-  codecov (>= 0.1.19)
+  codecov (>= 0.2.0)
   mocha
   rake
   simplecov
