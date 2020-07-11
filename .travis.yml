@@ -1,5 +1,7 @@
 lang: ruby
 
+dist: trusty
+
 script: bundle exec rake
 
-rvm: 2.1
+rvm: 2.7
