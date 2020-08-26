@@ -1,4 +1,6 @@
 # [Codecov](http://codecov.io) Ruby Example
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcodecov%2Fexample-ruby.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcodecov%2Fexample-ruby?ref=badge_shield)
+
 
 ## Guide
 
@@ -38,3 +40,7 @@ Repository tokens are required for (a) all private repos, (b) public repos not u
 - [Community Boards](https://community.codecov.io)
 - [Support](https://codecov.io/support)
 - [Documentation](https://docs.codecov.io)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcodecov%2Fexample-ruby.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcodecov%2Fexample-ruby?ref=badge_large)
