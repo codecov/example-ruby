@@ -13,6 +13,7 @@ lang: ruby
 script: bundle exec rake
 
 rvm: 2.7
+```
 
 ### Produce Coverage Reports
 
