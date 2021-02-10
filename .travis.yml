@@ -1,7 +1,0 @@
-lang: ruby
-
-dist: trusty
-
-script: bundle exec rake
-
-rvm: 2.7

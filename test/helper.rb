@@ -4,10 +4,9 @@ require 'simplecov'
 SimpleCov.start 'rails' do
   add_filter '/test/'
 end
-if ENV['CI'] == 'true'
-  require 'codecov'
-  SimpleCov.formatter = SimpleCov::Formatter::Codecov
-end
+
+require 'simplecov_json_formatter'
+SimpleCov.formatter = SimpleCov::Formatter::JSONFormatter
 
 require 'test/unit'
 require 'mocha/setup'
