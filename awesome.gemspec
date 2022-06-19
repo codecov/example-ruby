@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.test_files         = ['test/test.rb']
   s.require_paths      = ['lib']
 
-  s.add_development_dependency 'codecov', '>= 0.2.0'
+  s.add_development_dependency 'codecov', '>= 0.6.0'
   s.add_development_dependency 'mocha'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'simplecov'

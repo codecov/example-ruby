@@ -16,4 +16,3 @@ jobs:
         bundler-cache: true
     - name: Run tests
       run: bundle exec rake
-    - uses: codecov/codecov-action@v1
