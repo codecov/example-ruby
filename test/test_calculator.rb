@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-require 'test/unit'
+require 'minitest/autorun'
 
 require 'calculator'
 require 'test_helper'
 
-class TestCalculator < Test::Unit::TestCase
+class TestCalculator < Minitest::Test
   def test_add
     assert_equal(3.0, Calculator.add(1, 2))
     assert_equal(3.0, Calculator.add(1.0, 2.0))
