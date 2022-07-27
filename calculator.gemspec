@@ -12,9 +12,4 @@ Gem::Specification.new do |s|
   s.files              = ['lib/calculator.rb']
   s.test_files         = ['test/test_calculator.rb']
   s.require_paths      = ['lib']
-
-  s.add_development_dependency 'rake'
-  s.add_development_dependency 'minitest'
-  s.add_development_dependency 'simplecov'
-  s.add_development_dependency 'simplecov-cobertura'
 end

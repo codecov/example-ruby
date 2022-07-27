@@ -1,8 +1,5 @@
 # frozen_string_literal: true
 
-require 'minitest/autorun'
-
-require 'calculator'
 require 'test_helper'
 
 class TestCalculator < Minitest::Test
