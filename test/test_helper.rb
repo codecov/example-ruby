@@ -3,8 +3,8 @@
 require "simplecov"
 SimpleCov.start
 
-require "simplecov_json_formatter"
-SimpleCov.formatter = SimpleCov::Formatter::JSONFormatter
+require 'simplecov-cobertura'
+SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
 
 require "calculator"
 require "minitest/autorun"
